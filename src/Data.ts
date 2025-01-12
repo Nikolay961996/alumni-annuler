@@ -1,4 +1,4 @@
-const sampleCards = [
+export const sampleCards = [
     {
       pseudo: 'User123',
       date: '2024-03-15',
