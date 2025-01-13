@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import { ProblemCard as ProblemCardType, Translations } from '../types/ProblemCard.ts';
+import { ProblemCard as ProblemCardType } from '../types/ProblemCard.ts';
+import { Translations } from '../types/Language.ts';
+
 
 interface Props {
   card: ProblemCardType;
@@ -14,19 +16,28 @@ export function ProblemCard({ card, translations }: Props) {
     <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow border-t-4 border-indigo-500">
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
-          <div>
-            <h3 className="text-xl font-semibold text-indigo-900">{card.title}</h3>
-            <div className="flex gap-4 text-sm text-indigo-600 mt-1">
-              <span>{translations.pseudo}: {card.pseudo}</span>
-              <span>{translations.date}: {card.date}</span>
+
+          <div className="grid grid-rows-2 grid-cols-2 w-full">
+            <div className="row-span-2 p-4">
+              <h3 className="text-xl font-semibold text-indigo-900">{card.title}</h3>
+            </div>
+
+            <div className="text-right">
+              <span className="text-sm">{translations.nickname} </span>
+              <span className="text-blue-800 font-semibold">{card.nickname}</span>
+            </div>
+
+            <div className="text-right">
+              <span className="text-sm">{translations.date} </span>
+              <span className="text-blue-800 font-semibold">{card.date}</span>
             </div>
           </div>
         </div>
 
         <div className="space-y-4">
           <div>
-            <h4 className="font-medium text-purple-800">{translations.briefProblem}</h4>
-            <p className="text-gray-700 mt-1">{card.briefProblem}</p>
+            {/*<h4 className="font-medium text-purple-800">{translations.briefProblem}</h4>*/}
+            <p className="text-gray-700 mt-1 text-justify">{card.briefProblem}</p>
           </div>
 
           <div>
@@ -51,11 +62,11 @@ export function ProblemCard({ card, translations }: Props) {
               <div className="mt-4 space-y-4 animate-fadeIn">
                 <div className="bg-purple-50 p-4 rounded-lg">
                   <h4 className="font-medium text-purple-800">{translations.detailedProblem}</h4>
-                  <p className="text-gray-700 mt-1">{card.detailedProblem}</p>
+                  <p className="text-gray-700 mt-1 text-justify">{card.detailedProblem}</p>
                 </div>
                 <div className="bg-indigo-50 p-4 rounded-lg">
                   <h4 className="font-medium text-indigo-800">{translations.request}</h4>
-                  <p className="text-gray-700 mt-1">{card.request}</p>
+                  <p className="text-gray-700 mt-1 text-justify">{card.request}</p>
                 </div>
               </div>
             )}
