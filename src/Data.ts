@@ -123,4 +123,128 @@ export const students: Record<Language, StudentAny>[] = [
             request: ''
         }
     },
+
+    {
+        ru: {
+            nickname: 'anatashi',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Проблема в получении визы. 1.11.2024 пришел отказ в получении визы с рекомендацией подать на долгосрочную визу. Решение может выдать префектура.',
+            detailedProblem: 'Не смог разобраться в бюрократии по получению визы. Мое дело для вида на жительство (TITRE DE SEJOUR ) находится в sous-préfecture d’Argenteuil, но я нахожусь вне Франции, префеткура требоует моего личного присутствия и первое рандеву назначало на 30.09.2024. Я начал собирать информацию какую мне необходимо получить визу, но не в визомом центре не в посольстве Франции не в Campus-France не дали ответа, какая мне нужна виза. В итоге я указал как личный визит в sous-préfecture d’Argenteuil, но получил отказ. Так как подача и рассмотрение документов теперь не проходит в упрощенном визите, то каждая попытка обходится для меня от 500 евро. На текущий момент я планирую пройти заново Campus-France и попробовать получить студенческую визу. Прошу дать мне квартал, этого времени мне должно хватить чтобы пройти валидацию от Campus-France, получить ответ от посольства Франции и при положительном решении мне максимум потребуется неделя для сдачи проекта.',
+            request: 'Предоставить время для приезда в кампус до 01.04.2025'
+        },
+        fr: {
+            nickname: 'anatashi',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Le problème est d\'obtenir un visa. 1.11.2024 le refus d\'obtenir un visa est venu avec la recommandation de demander un visa de longue durée. La décision peut être rendue par la préfecture.',
+            detailedProblem: 'Je me permets de vous écrire pour vous expliquer ma situation concernant les démarches administratives liées à l’obtention de mon titre de séjour. Mon dossier pour le titre de séjour (TITRE DE SÉJOUR) se trouve à la sous-préfecture d’Argenteuil, mais étant actuellement hors de France, la préfecture exige ma présence physique. Le premier rendez-vous qui m’a été attribué est fixé au 30 septembre 2024. J’ai commencé à chercher des informations sur le type de visa dont j’ai besoin, mais ni le centre de visas, ni l’ambassade de France, ni Campus France n’ont été en mesure de m’indiquer clairement quel visa serait approprié à ma situation. Finalement, j’ai indiqué un rendez-vous personnel à la sous-préfecture d’Argenteuil dans ma demande, mais celle-ci a été refusée. Étant donné que la procédure de dépôt et d’examen des documents ne se fait plus via un rendez-vous simplifié, chaque tentative me coûte environ 500 euros. À ce jour, je prévois de reprendre la procédure avec Campus France afin de demander un visa étudiant. Ainsi, je sollicite votre bienveillance pour me permettre un délai d’un trimestre. Ce délai devrait être suffisant pour finaliser la validation auprès de Campus France, obtenir une réponse de l’ambassade de France et, en cas de décision favorable, je m’engage à finaliser mon projet sous une semaine. Je reste à votre disposition pour toute information complémentaire et vous remercie par avance pour votre compréhension.',
+            request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.04.2025'
+        }
+    },
+
+    {
+        ru: {
+            nickname: 'mlizzie',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Нет возможность выехать из РФ, получение визы',
+            detailedProblem: 'Прошу об отмене алюминизации и переносе даты албминизаци. В июлю 2023 загрузил файл социального страхования, но не мог получить валидацию. Писал в адм но не получил ответа (Есть скриншот).  В декабре мой аккаунт был разблокирован, и я хотел загрузить документы о прохождение стажировки. Чтобы отсрочить алюминизацию. Но мои документы не прошли проверку, причина: перевод в школу был не завершен. Хотя Летом 2022 года я приезжал в Париж и завершил перевод. Прошу дать отсрочку  до июня 2024 по алюминизации чтобы  закрыть стажировку и продолжить обучение в школе.',
+            request: 'Предоставить время для приезда в кампус до 01.06.2025 n987085904@yandex.ru'
+        },
+        fr: {
+            nickname: 'mlizzie',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Le problème est d\'obtenir un visa',
+            detailedProblem: 'Je demande d\'annuler l\'aliminisation et de reporter la date d\'aliminisation. En juillet 2023, j\'ai téléchargé le dossier de sécurité sociale, mais je n\'ai pas pu obtenir de validation. J\'ai écrit à l\'administrateur, mais je n\'ai pas reçu de réponse (Il y a une capture d\'écran). En décembre, mon compte a été débloqué et je voulais télécharger des documents sur le stage. Reporter l\'aliminisation. Mais mes documents ne validaient pas , la raison: le transfert à l\'école n\'était pas terminé. Bien qu\'à l\'été 2022, je sois venu à Paris et j\'ai terminé le transfert. Je demande un report jusqu\'en juin 2024 pour l\'aluminisation, afin de pouvoir clôturer le stage et continuer à étudier à l\'école.',
+            request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.06.2025 n987085904@yandex.ru'
+        }
+    },
+
+    
+
+    {
+        ru: {
+            nickname: 'msamual',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Нет возможность выехать из РФ, получил отказ в визе 3 раза',
+            detailedProblem: 'Подавал на визу в 2022 и 2 раза в 2023 2 раза проходил кампус франс но получал отказ в визе. В декабре узнал о предстоящей алюмнизации и решил попробовать получить турвизу. загрузил страховку но на визу не подал так как понял что не успеваю. Прошу отложить алюмнизацию до лета 2025',
+            request: 'Предоставить время для приезда в кампус до 01.06.2025 suryashev@bk.ru'
+        },
+        fr: {
+            nickname: 'msamual',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Impossible de quitter la Russie, j\'ai reçu un refus de visa trois fois.',
+            detailedProblem: 'J\'ai demandé un visa en 2022 et deux fois en 2023, et deux fois j\'ai suivi le processus Campus France, mais j\'ai reçu un refus de visa à chaque fois. En décembre, j\'ai appris la prochaine alumniation et j\'ai décidé d\'essayer d\'obtenir un visa touristique. J\'ai téléchargé l\'assurance, mais je n\'ai pas soumis la demande de visa car j\'ai réalisé que je ne pouvais pas le faire à temps. Je vous demande de repousser l\'alumniation jusqu\'à l\'été 2025.',
+            request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.06.2025 suryashev@bk.ru'
+        }
+    },
+
+    
+
+    {
+        ru: {
+            nickname: 'cjettie',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Трудности с удалённой стажировкой и получением визы в связи с отъездом из России',
+            detailedProblem: 'Я не смог поехать во Францию до 10 января из-за финансовых трудностей, возникших в связи с вынужденным переездом из-за войны. Также война усложнила поиск стажировки, и я смог найти её только недавно. Оформление визы в неродном государстве оказалось сложным процессом, что дополнительно задержало мои планы. Мне необходимо как минимум полгода отсрочки, чтобы реализовать свои цели.',
+            request: 'Отсрочка до 07.2025 для валидации стажировки и получения визы ferundal@gmail.com'
+        },
+        fr: {
+            nickname: 'cjettie',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Difficultés liées à un stage à distance et à l\'obtention d\'un visa en raison du départ de Russie.',
+            detailedProblem: 'Je n\'ai pas pu aller en France avant le 10 janvier en raison de difficultés financières liées à un déménagement forcé à cause de la guerre. De plus, la guerre a rendu la recherche d\'un stage très difficile, et je n\'ai pu en trouver un que récemment. La procédure de demande de visa dans un pays étranger s\'est également avérée complexe, ce qui a retardé davantage mes projets. J\'aurais besoin d\'un délai d\'au moins six mois pour réaliser mes objectifs.',
+            request: 'Un report jusqu\'en 07/2025 pour valider le stage et obtenir le visa. ferundal@gmail.com'
+        }
+    },
+
+
+
+    {
+        ru: {
+            nickname: 'mmyrtice',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Не было возможности приехать в Париж, есть активная стажировка на стадии пир-проверки',
+            detailedProblem: '"Прошу об отмене алюминизации. Выехать в Париж не получилось из-за проблем со здоровьем (документы есть). В феврале загрузила файл социального страхования, получила валидацию, но через какое-то время аккаунт был заблокирован, есть активная стажировка на стадии пир-проверки. Прошу дать отсрочку по алюминизации чтобы  закрыть стажировку и продолжить обучение в школе. Обращение о разблокировке было через внутреннюю сеть: https://meta.intra.42.fr/issues/19342/messages?page=1#161604 "',
+            request: 'Отменить алюмнизацию lv5588855@gmail.com'
+        },
+        fr: {
+            nickname: 'mmyrtice',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Il n\'a pas été possible de venir à Paris, il y a un stage actif dans la phase de vérification PIR',
+            detailedProblem: 'Je demande l\'annulation de l\'aluminisation. Aller à Paris n\'a pas réussi à cause de problèmes de santé (les documents sont). En février, j\'ai Téléchargé le fichier de sécurité sociale, j\'ai reçu la validation, mais après un certain temps, le compte a été bloqué, il y a un stage actif au stade de la vérification PIR. Je vous demande un sursis pour fermer le stage et poursuivre vos études. L\'appel de déverrouillage était via le réseau interne: https://meta.intra.42.fr/issues/19342/messages?page=1#161604',
+            request: 'Annuler l\'alumni lv5588855@gmail.com'
+        }
+    },
+
+    
+    
+
+    {
+        ru: {
+            nickname: 'myuonne',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Не продлили дедлайн по запросу направленному заранее.',
+            detailedProblem: 'Очень много писем было направлено на адрес adm и pedago с конца ноября с просьбой продления срока дедлайна, которые были проигнорированы. Запрос о продлении срока дедлайна был направлен в связи с тем, что паспорт истек. И требуется время не только для получения визы но и для получения нового паспорта. Также по какой-то причине не был завершен мой трансфер в школу, из-за чего я не смогла загрузить договор о стажировке, хотя другие студенты дистанционно загрузить договор смогли.',
+            request: 'Отменить алюмнизацию. Отсрочить дедлайн на 1,5 месяца. Завершить трансфер, принять договор о стажировке. 9689267359t@gmail.com'
+        },
+        fr: {
+            nickname: 'myuonne',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Ils n\'ont pas prolongé le délai, malgré le fait que la demande ait été envoyée plus d\'un mois à l\'avance.',
+            detailedProblem: 'De nombreuses lettres ont été envoyées à l\'adm et au pedago depuis fin novembre pour demander une prolongation du délai, qui ont été ignorées. La demande de prolongation du délai a été envoyée en raison du fait que le passeport était expiré. Et il faut du temps non seulement pour obtenir un visa mais aussi pour obtenir un nouveau passeport. De plus, pour une raison quelconque, mon transfert à l\'école n\'a pas été effectué, c\'est pourquoi je n\'ai pas pu envoyer la convention de stage, alors que d\'autres étudiants ont pu l\'envoyer à distance.',
+            request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com'
+        }
+    },
+    
 ];
