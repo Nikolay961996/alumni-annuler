@@ -1,6 +1,5 @@
-import React from 'react';
 import { Languages } from 'lucide-react';
-import { Language } from '../types/ProblemCard.ts';
+import { Language } from '../types/Language.ts';
 
 interface Props {
   currentLanguage: Language;
