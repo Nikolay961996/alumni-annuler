@@ -12,7 +12,7 @@ interface StudentAny {
 export const students: Record<Language, StudentAny>[] = [
     {
         fr: {
-            nickname: 'aphilome & tbirdper',
+            nickname: 'aphilome',
             date: '10.01.2025',
             title: 'Alumni',
             briefProblem: 'Le 10 janvier est le dernier jour avant l\'alumnisation. Il aurait dû être inclus.',
@@ -20,7 +20,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Annuler l\'alumni'
         },
         ru: {
-            nickname: 'aphilome & tbirdper',
+            nickname: 'aphilome',
             date: '10.01.2025',
             title: 'Алюмнизация',
             briefProblem: '10 января - последний день до алюмнизации. Он должен был быть включительно. ',
@@ -89,6 +89,24 @@ export const students: Record<Language, StudentAny>[] = [
         }
     },
 
+    {
+        fr: {
+            nickname: 'tbirdper',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Le 10 janvier est le dernier jour avant l\'alumnisation. Il aurait dû être inclus.',
+            detailedProblem: 'J\'étais convaincu que "0 jours avant l\'alumnisation" correspondait à moins de 24 heures. Par conséquent, cela impliquait qu\'après "1 jour avant l\'alumnisation", il y avait "0 jours 23 heures 59 minutes 59 secondes", ce qui est tout à fait logique. Après la période des fêtes, ayant achevé mon projet ft_quine, je me suis présentée à l\'école afin de le soutenir, mais j\'ai été déclarée alumni. Je vous prie de bien vouloir annuler mon alumnisation (étant actuellement en mesure de soutenir mon projet quine et de le remettre immédiatement). Je vous prie de bien vouloir prendre en considération ma situation. Nous nous sommes rendues sur le campus et avons fait une demande de visa spécifiquement dans le but d\'éviter cette alumnisation.',
+            request: 'Annuler l\'alumni'
+        },
+        ru: {
+            nickname: 'tbirdper',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: '10 января - последний день до алюмнизации. Он должен был быть включительно. ',
+            detailedProblem: 'я был убеждён, что \'0 дней before alumnization\' это менее 24 часов. То есть это означает, что после \'1 день до alumnization\' следует \'0 дней 23 часа 59 минут 59 секунд\', что вполне логично. после праздника я уже закончила выполнять проект ft_quine и пришла в школу для того, чтобы защитить его, но я стала alamni. прошу Вас отменить мою alamnization (сейчас я защищаю проект quine и могу его сдать прям сейчас). прошу Вас понять мою ситуацию. мы приехали в кампус и сделали визу специально, чтобы избежать alumnization',
+            request: 'Отменить алюмнизацию'
+        }
+    },
 
     {
         ru: {
