@@ -62,7 +62,28 @@ export const students: Record<Language, StudentAny>[] = [
             date: '10.01.2025',
             title: 'Alumni',
             briefProblem: 'Impossibilité de quitter la Fédération de Russie',
-            detailedProblem: 'Madame, Monsieur, Par la présente, je me permets de vous contacter au sujet de mon alumnisation initialement prévue le 10 janvier 2025. Je possède une spécialité militaire rare – tireur d’élite – raison pour laquelle j’ai reçu trois convocations à la guerre (le 20 mars, le 20 juin et le 20 septembre 2024). Je ne me suis pas présenté au bureau de recrutement, car ce conflit va à l’encontre de mes valeurs humaines. De ce fait, je ne peux actuellement pas quitter la Russie : je risque fortement d’être détenu à la frontière, comme cela est déjà arrivé à plusieurs personnes dans la même situation (voir https://checkperson.ru/articles-sections/section-dolgi_i_zadolzhennosty/post-zapret_na_vyezd_za_granicu_pri_mobilizacii, https://pravo.ru/story/245178/, https://ura.news/news/1052641656). Le 20 septembre 2024, j’ai quitté mon emploi à la banque Sberbank (sous sanctions internationales) pour rejoindre l’entreprise Cross Technologie, spécialisée en cybersécurité et non soumise aux sanctions, le poste qui me confère une exonération du service militaire. Le 9 novembre 2024, j’ai tenté de télécharger mon contrat de travail sur l’Intra 42. Cependant, un message d’erreur indiquant « please edit your form correctly and submit it again » est apparu. J’ai alors envoyé cinq courriels à l’adresse pedago@42.fr (les 9/11, 11/11, 15/11, 27/11 et 9/01/2024), sans parvenir à résoudre le problème. L’école m’a simplement indiqué que mon transfert n’avait pas abouti. D’après plusieurs sources de presse (par exemple, https://www.bbc.com/russian/articles/c24nmdyzyv2o), le conflit militaire pourrait prendre fin au cours des six prochains mois. C’est pourquoi je sollicite votre bienveillance pour reporter mon alumnisation au 1ᵉʳ août 2025, ce qui me permettrait de finaliser mon projet Internship-1 au sein de Cross Technologie, d’obtenir le visaet de valider mon projet sur le campus de Paris. Pour information documents que je peux fournir : \n• mon diplôme de tireur d’élite, \n• convocations, \n• mon attestation de licenciement de Sberbank, \n• mon contrat de travail chez Cross Technologie (signé le 9 novembre 2024) pour un poste de responsable du développement et de la mise en œuvre.poste de responsable du développement et de la mise en œuvre. Dans l’attente de votre réponse, je reste à votre disposition pour tout renseignement complémentaire et vous remercie vivement de l’attention portée à mon dossier. Veuillez agréer, Madame, Monsieur, l’expression de ma considération distinguée.',
+            detailedProblem: 'Madame, Monsieur,\n' +
+                'Par la présente, je me permets de vous contacter au sujet de mon alumnisation initialement prévue le 10 janvier 2025.\n' +
+                'Je possède une spécialité militaire rare – tireur d’élite – raison pour laquelle j’ai reçu trois convocations à la guerre (le 20 mars, le 20 juin et le 20 septembre 2024). Je ne me suis pas présenté au bureau de recrutement, car ce conflit va à l’encontre de mes valeurs humaines. De ce fait, je ne peux actuellement pas quitter la Russie : je risque fortement d’être détenu à la frontière, comme cela est déjà arrivé à plusieurs personnes dans la même situation (voir https://checkperson.ru/articles-sections/section-dolgi_i_zadolzhennosty/post-zapret_na_vyezd_za_granicu_pri_mobilizacii, https://pravo.ru/story/245178/, https://ura.news/news/1052641656).\n' +
+                'Le 20 septembre 2024, j’ai quitté mon emploi à la banque Sberbank (sous sanctions internationales) pour rejoindre l’entreprise Cross Technologie, spécialisée en cybersécurité et non soumise aux sanctions, le poste qui me confère une exonération du service militaire.\n' +
+                'Le 9 novembre 2024, j’ai tenté de télécharger mon contrat de travail sur l’Intra 42. Cependant, un message d’erreur indiquant « please edit your form correctly and submit it again » est apparu. J’ai alors envoyé cinq courriels à l’adresse pedago@42.fr (les 9/11, 11/11, 15/11, 27/11 et 9/12/2024 & 1/1/2025), sans parvenir à résoudre le problème. L’école m’a simplement indiqué que mon transfert n’avait pas abouti.\n' +
+                'D’après plusieurs sources de presse (par exemple, https://www.bbc.com/russian/articles/c24nmdyzyv2o), le conflit militaire pourrait prendre fin au cours des six prochains mois. C’est pourquoi je sollicite votre bienveillance pour reporter mon alumnisation au 1ᵉʳ août 2025, ce qui me permettrait de finaliser mon projet Internship-1 au sein de Cross Technologie, d’obtenir le visaet de valider mon projet sur le campus de Paris.\n' +
+                'Je voudrais vous présenter, également, les réalisations clés dans ma carrière :\n' +
+                '•  Développement d\'un système en Java/PostgreSQL/Kafka permettant aux clients de recevoir des notifications concernant les amendes administratives (automobiles, civiles, fiscales) et de les payer avec une réduction de 50%, ainsi que de consulter les relevés d\'amendes (Sberbank) ;\n' +
+                '•  Migration de l\'unité de RedHat OpenShift vers Kubernetes, d\'Oracle vers PostgreSQL, et implémentation de GitOps avec ArgoCD (Sberbank) ;\n' +
+                '•  Déploiement du système de journalisation Prometheus, des tableaux de bord Grafana et du stockage Elasticsearch (Sberbank) ;\n' +
+                '•  Participation au programme de formation et d\'encadrement de 12 stagiaires de School21, dont beaucoup travaillent actuellement dans de grandes entreprises financières (Sberbank) ;\n' +
+                '•  Développement d\'un système de surveillance du comportement des utilisateurs pour détecter les actions illégitimes (CrossTech) ;\n' +
+                '•  Création et mise en œuvre d\'un système ETL haute performance (2 To/jour) en Java/Kafka/ClickHouse, assurant une vitesse d\'écriture de 1 million d\'événements/seconde et la possibilité d\'une analyse analytique complexe (CrossTech) ;\n' +
+                '•  Déploiement de la version bêta de notre propre produit IDM CAE (CrossTech) ;\n' +
+                '•  Migration de 350 To de données de Hadoop HDFS vers notre système ETL en utilisant Spark et PySpark (CrossTech).\n' +
+                'Pour information documents que je peux fournir :\n' +
+                '• mon diplôme de tireur d’élite,\n' +
+                '• mes trois convocations,\n' +
+                '• mon attestation de licenciement de Sberbank,\n' +
+                '• mon contrat de travail chez Cross Technologie (signé le 9 novembre 2024), pour un poste de responsable du développement et de la mise en œuvre.\n' +
+                'Dans l’attente de votre réponse, je reste à votre disposition pour tout renseignement complémentaire et vous remercie vivement de l’attention portée à mon dossier.\n' +
+                'Veuillez agréer, Madame, Monsieur, l’expression de ma considération distinguée.\n',
             request: 'Veuillez me donner la possibilité de télécharger le contrat dans le projet "Internship II"'
         }
     },
@@ -162,7 +183,7 @@ export const students: Record<Language, StudentAny>[] = [
         }
     },
 
-    
+
 
     {
         ru: {
@@ -183,7 +204,7 @@ export const students: Record<Language, StudentAny>[] = [
         }
     },
 
-    
+
 
     {
         ru: {
@@ -225,8 +246,8 @@ export const students: Record<Language, StudentAny>[] = [
         }
     },
 
-    
-    
+
+
 
     {
         ru: {
@@ -246,5 +267,5 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com'
         }
     },
-    
+
 ];
