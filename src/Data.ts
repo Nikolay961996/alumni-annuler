@@ -54,7 +54,7 @@ export const students: Record<Language, StudentAny>[] = [
             date: '10.01.2025',
             title: 'Алюмнизация',
             briefProblem: 'Невозможность выехать из РФ, по причине высылалась повестка',
-            detailedProblem: '"К сожалению, я не смог приехать в Париж для очного обучения по двум причинам. Во-первых, это СВО. Во-вторых, у меня редкая военно-учетная специальность — снайпер, что сделало меня ""привлекательным"" кандидатом для срочной мобилизации. Повестки пришли быстро, что не удивительно, но конфликт в корне противоречит моим ценностям, поэтому я их проигнорировал. Чтобы не терять время и как-то решить вопрос с ""автоалюмнизацией"", я оперативно нашел работу в ИТ-компании в области кибербезопасности на должность руководителя разработки и внедрения. Я специально сменил банк, находящийся под санкциями, на ИТ-компанию, которая не подвержена санкционным рискам. Чтоб у сотрудников Ecole42 не было проблем в дальнейшем и им не задали неудобные вопросы. Однако, столкнулся с парадоксальной ситуацией: валидировать стажировку я не могу, потому что ""не доехал до Парижа"". Аргумент, что мой выезд из России в условиях текущего конфликта чреват задержанием на границе, игнорируется. ""Нас не интересуют ваши проблемы, езжай и точка"". Причем очень странная логика, кому то валидируют, кто-то игнорируется, откуда эта дискриминация я понять так и не смог. В сложившейся ситуации, как любой здравомыслящий человек, я выбираю ""подождать"", а не подвергать себя риску задержания на границе. Тем более, по моим ощущениям и публикациям в прессе, конфликт должен завершиться в ближайшие полгода, что позволит мне спокойно прие',
+            detailedProblem: '"К сожалению, я не смог приехать в Париж для очного обучения по двум причинам. Во-первых, это СВО. Во-вторых, у меня редкая военно-учетная специальность — снайпер, что сделало меня ""привлекательным"" кандидатом для срочной мобилизации. Повестки пришли быстро, что не удивительно, но конфликт в корне противоречит моим ценностям, поэтому я их проигнорировал. Чтобы не терять время и как-то решить вопрос с ""автоалюмнизацией"", я оперативно нашел работу в ИТ-компании в области кибербезопасности на должность руководителя разработки и внедрения. Я специально сменил банк, находящийся под санкциями, на ИТ-компанию, которая не подвержена санкционным рискам. Чтоб у сотрудников Ecole42 не было проблем в дальнейшем и им не задали неудобные вопросы. Однако, столкнулся с парадоксальной ситуацией: валидировать стажировку я не могу, потому что ""не доехал до Парижа"". Аргумент, что мой выезд из России в условиях текущего конфликта чреват задержанием на границе, игнорируется. ""Нас не интересуют ваши проблемы, езжай и точка"". Причем очень странная логика, кому то валидируют, кто-то игнорируется, откуда эта дискриминация я понять так и не смог. В сложившейся ситуации, как любой здравомыслящий человек, я выбираю ""подождать"", а не подвергать себя риску задержания на границе. Тем более, по моим ощущениям и публикациям в прессе, конфликт должен завершиться в ближайшие полгода, что позволит мне спокойно прие\nhttps://drive.google.com/drive/folders/1amStCWrjFzCC1bwOAfB7rAzgyPN0EpvU?hl=ru',
             request: ''
         },
         fr: {
@@ -84,10 +84,11 @@ export const students: Record<Language, StudentAny>[] = [
                 '• mon contrat de travail chez Cross Technologie (signé le 9 novembre 2024), pour un poste de responsable du développement et de la mise en œuvre.\n' +
                 'Dans l’attente de votre réponse, je reste à votre disposition pour tout renseignement complémentaire et vous remercie vivement de l’attention portée à mon dossier.\n' +
                 'Veuillez agréer, Madame, Monsieur, l’expression de ma considération distinguée.\n',
-            request: 'Veuillez me donner la possibilité de télécharger le contrat dans le projet "Internship II"'
+            request: 'Veuillez me donner la possibilité de télécharger le contrat dans le projet "Internship II"\nhttps://drive.google.com/drive/folders/1amStCWrjFzCC1bwOAfB7rAzgyPN0EpvU?hl=ru'
         }
     },
 
+    /*
     {
         ru: {
             nickname: 'galetha',
@@ -104,6 +105,47 @@ export const students: Record<Language, StudentAny>[] = [
             briefProblem: 'Accident de voiture dans lequel il a subi des blessures telles que : fracture de la colonne cervicale, blessure à l\'épaule, rééducation.',
             detailedProblem: 'J\'ai une situation difficile qui m\'a empêché de demander un visa et qui m\'empêchera de me rendre à Paris avant le 10 janvier. Le 27 mars 2024, j\'ai été victime d\'un accident de voiture au cours duquel j\'ai subi une fracture de la colonne cervicale, de multiples écorchures et une blessure à l\'épaule droite. Je suis prêt à fournir des documents, des photos et des rapports de médecins. Jusqu\'à la fin de cette année, j\'étais en rééducation, ce qui m\'a empêché de rassembler physiquement la liste des documents nécessaires et de demander un visa. Pour cette raison, je vous demande de prendre en considération ma demande de report de l\'alumnisation de 2 mois afin que j\'aie le temps de faire les documents. Pendant toute cette année, alors que j\'étais en rééducation, l\'Ecole m\'a manqué, ce sont mes études à l\'Ecole qui m\'ont donné la force de me relever et d\'aller de l\'avant à chaque fois.',
             request: 'Prévoir du temps pour arriver sur le campus avant le 20 avril 2025 soldatovandrey4@gmail.com'
+        }
+    },
+    */
+
+    /*
+    {
+        ru: {
+            nickname: 'wjonatho',
+            date: '',
+            title: 'Потенциальный отказ в стажировке',
+            briefProblem: '42 завалидировали мне стажировку, она заканчивается 17.03.2025. Правило, что я должен приехать до 10.01 появилось слишком поздно. Визу не получилось оформить так быстро ',
+            detailedProblem: 'Если начать с начала, то начавшаяся война сильно ударила по бизнесу, который практически перестал стартовать стажировки, а если и стажировки были, то junior позиций не было. Людей увольняли после стажировок. Работу в такой ситуации было найти очень сложно, но все это время я думал о том, чтобы найти работу, завалидировать стажу. Вот осенью 2024 у меня получилось начать, я почитал все правила, понял что ничто не противоречит начать, а потом приехать в Париж сдавать пир видео. Тем более той внушительной суммы которую нужно показать консульству Франции у меня не было. И вот я спланировал, что в апреле переезжаю в Париж,   сдаю пирвидео, продолжаю обучение. А тут в декабре адм озвучивает в письме, что через 1 месяц (10.01.2025) алумнизируют меня и остальных, кто не логинился в кампусе. За 1 месяц, да еще и в новогодние праздники, там сумма огромная, чтобы так попасть в Париж. У меня уже была одна(30.12.2024) оценка стажировки от ментора и она прошла хорошо. Я все еще надеюсь, что я приеду в течение недели после второй оценки руководителя (17.03.2025) и сдам пирвидео, и продолжу свой путь в 42, достигну 17 lvl и получу квалификацию.',
+            request: ''
+        },
+        fr: {
+            nickname: 'wjonatho',
+            date: '',
+            title: 'Refus potentiel de stage',
+            briefProblem: '42 J\'ai obtenu un stage qui se termine le 17.03.2025. La règle selon laquelle je dois arriver avant le 10.01.01 est apparue trop tard. Je n\'ai pas pu obtenir un visa aussi rapidement',
+            detailedProblem: 'Si vous commencez par le début, la guerre qui a éclaté a durement touché l\'entreprise, qui a pratiquement cessé de proposer des stages, et même s\'il y avait des stages, il n\'y avait pas de postes subalternes. Les gens étaient licenciés après leur stage. Il était très difficile de trouver un emploi dans cette situation, mais pendant tout ce temps, je pensais à trouver un emploi, à obtenir un stage. A l\'automne 2024, j\'ai réussi à commencer, j\'ai lu toutes les règles, j\'ai compris que rien ne s\'opposait à commencer, et puis je suis venu à Paris pour passer la vidéo de piratage. De plus, je n\'avais pas cette somme impressionnante d\'argent à présenter au consulat français. Et donc j\'ai prévu qu\'en avril je déménage à Paris, passe la pirvidéo, continue mes études. Et puis en décembre l\'administration fait savoir dans une lettre que dans 1 mois (10.01.2025) elle m\'alumnise ainsi que d\'autres qui ne se sont pas connectés au campus. En 1 mois, et même pendant les fêtes de fin d\'année, il y a une grosse somme d\'argent à débourser pour se rendre à Paris comme ça. J\'ai déjà eu une (30.12.2024) évaluation de stage par un mentor et ça s\'est bien passé. J\'espère toujours arriver dans la semaine qui suit ma deuxième évaluation par un superviseur (17.03.2025) et passer la pirvidéo et continuer mon voyage jusqu\'à 42, atteindre le niveau 17 et me qualifier.',
+            request: ''
+        }
+    },
+    */
+    
+    {
+        ru: {
+            nickname: 'anatashi',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Проблема в получении визы. 1.11.2024 пришел отказ в получении визы с рекомендацией подать на долгосрочную визу. Решение может выдать префектура.',
+            detailedProblem: 'Не смог разобраться в бюрократии по получению визы. Мое дело для вида на жительство (TITRE DE SEJOUR ) находится в sous-préfecture d’Argenteuil, но я нахожусь вне Франции, префеткура требоует моего личного присутствия и первое рандеву назначало на 30.09.2024. Я начал собирать информацию какую мне необходимо получить визу, но не в визомом центре не в посольстве Франции не в Campus-France не дали ответа, какая мне нужна виза. В итоге я указал как личный визит в sous-préfecture d’Argenteuil, но получил отказ. Так как подача и рассмотрение документов теперь не проходит в упрощенном визите, то каждая попытка обходится для меня от 500 евро. На текущий момент я планирую пройти заново Campus-France и попробовать получить студенческую визу. Прошу дать мне квартал, этого времени мне должно хватить чтобы пройти валидацию от Campus-France, получить ответ от посольства Франции и при положительном решении мне максимум потребуется неделя для сдачи проекта.',
+            request: 'Предоставить время для приезда в кампус до 01.04.2025'
+        },
+        fr: {
+            nickname: 'anatashi',
+            date: '10.01.2025',
+            title: 'Alumni',
+            briefProblem: 'Le problème est d\'obtenir un visa. 1.11.2024 le refus d\'obtenir un visa est venu avec la recommandation de demander un visa de longue durée. La décision peut être rendue par la préfecture.',
+            detailedProblem: 'Je me permets de vous écrire pour vous expliquer ma situation concernant les démarches administratives liées à l’obtention de mon titre de séjour. Mon dossier pour le titre de séjour (TITRE DE SÉJOUR) se trouve à la sous-préfecture d’Argenteuil, mais étant actuellement hors de France, la préfecture exige ma présence physique. Le premier rendez-vous qui m’a été attribué est fixé au 30 septembre 2024. J’ai commencé à chercher des informations sur le type de visa dont j’ai besoin, mais ni le centre de visas, ni l’ambassade de France, ni Campus France n’ont été en mesure de m’indiquer clairement quel visa serait approprié à ma situation. Finalement, j’ai indiqué un rendez-vous personnel à la sous-préfecture d’Argenteuil dans ma demande, mais celle-ci a été refusée. Étant donné que la procédure de dépôt et d’examen des documents ne se fait plus via un rendez-vous simplifié, chaque tentative me coûte environ 500 euros. À ce jour, je prévois de reprendre la procédure avec Campus France afin de demander un visa étudiant. Ainsi, je sollicite votre bienveillance pour me permettre un délai d’un trimestre. Ce délai devrait être suffisant pour finaliser la validation auprès de Campus France, obtenir une réponse de l’ambassade de France et, en cas de décision favorable, je m’engage à finaliser mon projet sous une semaine. Je reste à votre disposition pour toute information complémentaire et vous remercie par avance pour votre compréhension.',
+            request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.04.2025'
         }
     },
 
@@ -125,45 +167,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Запрос: Предоставьте время, чтобы прибыть в кампус до апреля 2025 года soldatovandrey4@gmail.com'
         }
     },
-
-    {
-        ru: {
-            nickname: 'wjonatho',
-            date: '',
-            title: 'Потенциальный отказ в стажировке',
-            briefProblem: '42 завалидировали мне стажировку, она заканчивается 17.03.2025. Правило, что я должен приехать до 10.01 появилось слишком поздно. Визу не получилось оформить так быстро ',
-            detailedProblem: 'Если начать с начала, то начавшаяся война сильно ударила по бизнесу, который практически перестал стартовать стажировки, а если и стажировки были, то junior позиций не было. Людей увольняли после стажировок. Работу в такой ситуации было найти очень сложно, но все это время я думал о том, чтобы найти работу, завалидировать стажу. Вот осенью 2024 у меня получилось начать, я почитал все правила, понял что ничто не противоречит начать, а потом приехать в Париж сдавать пир видео. Тем более той внушительной суммы которую нужно показать консульству Франции у меня не было. И вот я спланировал, что в апреле переезжаю в Париж,   сдаю пирвидео, продолжаю обучение. А тут в декабре адм озвучивает в письме, что через 1 месяц (10.01.2025) алумнизируют меня и остальных, кто не логинился в кампусе. За 1 месяц, да еще и в новогодние праздники, там сумма огромная, чтобы так попасть в Париж. У меня уже была одна(30.12.2024) оценка стажировки от ментора и она прошла хорошо. Я все еще надеюсь, что я приеду в течение недели после второй оценки руководителя (17.03.2025) и сдам пирвидео, и продолжу свой путь в 42, достигну 17 lvl и получу квалификацию.',
-            request: ''
-        },
-        fr: {
-            nickname: 'wjonatho',
-            date: '',
-            title: 'Refus potentiel de stage',
-            briefProblem: '42 J\'ai obtenu un stage qui se termine le 17.03.2025. La règle selon laquelle je dois arriver avant le 10.01.01 est apparue trop tard. Je n\'ai pas pu obtenir un visa aussi rapidement',
-            detailedProblem: 'Si vous commencez par le début, la guerre qui a éclaté a durement touché l\'entreprise, qui a pratiquement cessé de proposer des stages, et même s\'il y avait des stages, il n\'y avait pas de postes subalternes. Les gens étaient licenciés après leur stage. Il était très difficile de trouver un emploi dans cette situation, mais pendant tout ce temps, je pensais à trouver un emploi, à obtenir un stage. A l\'automne 2024, j\'ai réussi à commencer, j\'ai lu toutes les règles, j\'ai compris que rien ne s\'opposait à commencer, et puis je suis venu à Paris pour passer la vidéo de piratage. De plus, je n\'avais pas cette somme impressionnante d\'argent à présenter au consulat français. Et donc j\'ai prévu qu\'en avril je déménage à Paris, passe la pirvidéo, continue mes études. Et puis en décembre l\'administration fait savoir dans une lettre que dans 1 mois (10.01.2025) elle m\'alumnise ainsi que d\'autres qui ne se sont pas connectés au campus. En 1 mois, et même pendant les fêtes de fin d\'année, il y a une grosse somme d\'argent à débourser pour se rendre à Paris comme ça. J\'ai déjà eu une (30.12.2024) évaluation de stage par un mentor et ça s\'est bien passé. J\'espère toujours arriver dans la semaine qui suit ma deuxième évaluation par un superviseur (17.03.2025) et passer la pirvidéo et continuer mon voyage jusqu\'à 42, atteindre le niveau 17 et me qualifier.',
-            request: ''
-        }
-    },
-
-    {
-        ru: {
-            nickname: 'anatashi',
-            date: '10.01.2025',
-            title: 'Алюмнизация',
-            briefProblem: 'Проблема в получении визы. 1.11.2024 пришел отказ в получении визы с рекомендацией подать на долгосрочную визу. Решение может выдать префектура.',
-            detailedProblem: 'Не смог разобраться в бюрократии по получению визы. Мое дело для вида на жительство (TITRE DE SEJOUR ) находится в sous-préfecture d’Argenteuil, но я нахожусь вне Франции, префеткура требоует моего личного присутствия и первое рандеву назначало на 30.09.2024. Я начал собирать информацию какую мне необходимо получить визу, но не в визомом центре не в посольстве Франции не в Campus-France не дали ответа, какая мне нужна виза. В итоге я указал как личный визит в sous-préfecture d’Argenteuil, но получил отказ. Так как подача и рассмотрение документов теперь не проходит в упрощенном визите, то каждая попытка обходится для меня от 500 евро. На текущий момент я планирую пройти заново Campus-France и попробовать получить студенческую визу. Прошу дать мне квартал, этого времени мне должно хватить чтобы пройти валидацию от Campus-France, получить ответ от посольства Франции и при положительном решении мне максимум потребуется неделя для сдачи проекта.',
-            request: 'Предоставить время для приезда в кампус до 01.04.2025'
-        },
-        fr: {
-            nickname: 'anatashi',
-            date: '10.01.2025',
-            title: 'Alumni',
-            briefProblem: 'Le problème est d\'obtenir un visa. 1.11.2024 le refus d\'obtenir un visa est venu avec la recommandation de demander un visa de longue durée. La décision peut être rendue par la préfecture.',
-            detailedProblem: 'Je me permets de vous écrire pour vous expliquer ma situation concernant les démarches administratives liées à l’obtention de mon titre de séjour. Mon dossier pour le titre de séjour (TITRE DE SÉJOUR) se trouve à la sous-préfecture d’Argenteuil, mais étant actuellement hors de France, la préfecture exige ma présence physique. Le premier rendez-vous qui m’a été attribué est fixé au 30 septembre 2024. J’ai commencé à chercher des informations sur le type de visa dont j’ai besoin, mais ni le centre de visas, ni l’ambassade de France, ni Campus France n’ont été en mesure de m’indiquer clairement quel visa serait approprié à ma situation. Finalement, j’ai indiqué un rendez-vous personnel à la sous-préfecture d’Argenteuil dans ma demande, mais celle-ci a été refusée. Étant donné que la procédure de dépôt et d’examen des documents ne se fait plus via un rendez-vous simplifié, chaque tentative me coûte environ 500 euros. À ce jour, je prévois de reprendre la procédure avec Campus France afin de demander un visa étudiant. Ainsi, je sollicite votre bienveillance pour me permettre un délai d’un trimestre. Ce délai devrait être suffisant pour finaliser la validation auprès de Campus France, obtenir une réponse de l’ambassade de France et, en cas de décision favorable, je m’engage à finaliser mon projet sous une semaine. Je reste à votre disposition pour toute information complémentaire et vous remercie par avance pour votre compréhension.',
-            request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.04.2025'
-        }
-    },
-
+    
     {
         ru: {
             nickname: 'mlizzie',
@@ -246,9 +250,6 @@ export const students: Record<Language, StudentAny>[] = [
         }
     },
 
-
-
-
     {
         ru: {
             nickname: 'myuonne',
@@ -256,7 +257,7 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'Алюмнизация',
             briefProblem: 'Не продлили дедлайн по запросу направленному заранее.',
             detailedProblem: 'Очень много писем было направлено на адрес adm и pedago с конца ноября с просьбой продления срока дедлайна, которые были проигнорированы. Запрос о продлении срока дедлайна был направлен в связи с тем, что паспорт истек. И требуется время не только для получения визы но и для получения нового паспорта. Также по какой-то причине не был завершен мой трансфер в школу, из-за чего я не смогла загрузить договор о стажировке, хотя другие студенты дистанционно загрузить договор смогли.',
-            request: 'Отменить алюмнизацию. Отсрочить дедлайн на 1,5 месяца. Завершить трансфер, принять договор о стажировке. 9689267359t@gmail.com'
+            request: 'Отменить алюмнизацию. Отсрочить дедлайн на 1,5 месяца. Завершить трансфер, принять договор о стажировке. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n-https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing'
         },
         fr: {
             nickname: 'myuonne',
@@ -264,8 +265,67 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'Alumni',
             briefProblem: 'Ils n\'ont pas prolongé le délai, malgré le fait que la demande ait été envoyée plus d\'un mois à l\'avance.',
             detailedProblem: 'De nombreuses lettres ont été envoyées à l\'adm et au pedago depuis fin novembre pour demander une prolongation du délai, qui ont été ignorées. La demande de prolongation du délai a été envoyée en raison du fait que le passeport était expiré. Et il faut du temps non seulement pour obtenir un visa mais aussi pour obtenir un nouveau passeport. De plus, pour une raison quelconque, mon transfert à l\'école n\'a pas été effectué, c\'est pourquoi je n\'ai pas pu envoyer la convention de stage, alors que d\'autres étudiants ont pu l\'envoyer à distance.',
-            request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com'
+            request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n-https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing'
         }
     },
+
+    {
+        ru: {
+            nickname: 'mturquin',
+            date: '10.01.2025',
+            title: 'Алюмнизация',
+            briefProblem: 'Не было возможности переехать в связи проблемами со здоровьем.',
+            detailedProblem: 'Мадам, сэр, я обращаюсь к вам по поводу моего зачисления в аспирантуру с 10 января 2025 года. После того, как 1 октября 2023 года меня перевели из школы 21 в школу 42, я не смог поехать в Париж, так как с 1 февраля по 31 июля 2024 года мне пришлось пройти очень важные медицинские осмотры., и мне также придется проходить курс лечения с 1 февраля по 31 июля 2025 года. Кроме того, учитывая крайние сроки получения виз, я смогу находиться в Париже только с 1 сентября 2025 года. В настоящее время я работаю над ft_linear_regression, dslr и собираюсь пройти шестимесячную стажировку. Учитывая эти обстоятельства, я прошу вашей доброты перенести дату зачисления в колледж на 31 декабря 2025 года. Благодарим Вас за внимание, которое вы уделите моей просьбе, я остаюсь в вашем распоряжении для получения любой дополнительной информации и прошу вас, мадам и месье, принять выражение моего глубочайшего уважения. \nДаниил Горячев.',
+            request: 'Отменить алюмнизацию и продлить дедлайн на 1 год. goryachevdo@mail.ru'
+        },
+        fr: {
+            nickname: 'mturquin',
+            date: '10.01.2025',
+            title: 'Alumini',
+            briefProblem: 'Je n\'ai pas eu la possibilité de déménager en raison de problèmes de santé.',
+            detailedProblem: 'Madame, Monsieur, Je vous contacte au sujet de mon alumnisation en date du 10 janvier 2025. Ayant été transféré de l’École 21 à l’École 42 le 1ᵉʳ octobre 2023, je n’ai pas pu me rendre à Paris, car j’ai dû subir des examens médicaux très importants du 1ᵉʳ février au 31 juillet 2024, et je devrai également suivre un traitement du 1ᵉʳ février au 31 juillet 2025. Par ailleurs, compte tenu des délais pour l’obtention de visas, je ne pourrai être à Paris qu’à partir du 1ᵉʳ septembre 2025. Je travaille actuellement sur ft_linear_regression, dslr et je commencerai un stage de six mois. Compte tenu de ces circonstances, je sollicite votre bienveillance afin de reporter ma date d’alumnisation au 31 décembre 2025. En vous remerciant pour l’attention que vous porterez à ma demande, je reste à votre disposition pour tout renseignement complémentaire et vous prie d’agréer, Madame, Monsieur, l’expression de ma respectueuse considération. \nDaniil Goryachev."',
+            request: 'Annuler l\'alumination et prolonger le délai de 1 an. goryachevdo@mail.ru'
+        }
+    },
+
+
+    {
+        ru: {
+            nickname: 'sgertrud',
+            date: '30.11.2024',
+            title: 'Алюмнизация',
+            briefProblem: 'Заблокированная интра + невозможность получить визу',
+            detailedProblem: '30.11.12 я прочел письмо о предстоящей аллюминизации. Я направил письмо на почту 42paris с разьяснениями о том, что моя интра заблокирована, соответственно я не могу завалидировать стажировку, доехать до парижа я также не успеваю. Однако, никакого ответа я не получил.',
+            request: 'Отменить аллюминизацию, разблокировать интру, дать возможность загрузить стажировку, необходимость прибыть в Париж отсрочить на 6 месяцев\nmsnazarow@gmail.com'
+        },
+        fr: {
+            nickname: 'sgertrud',
+            date: '30.11.2024',
+            title: 'Alumini',
+            briefProblem: 'Bloqué en intra + impossible d\'obtenir un visa',
+            detailedProblem: '30/11/12 J\'ai lu une lettre concernant l\'illumination à venir. J\'ai envoyé un courrier à 42paris en expliquant que mon intra est bloqué, donc je ne peux pas valider le stage, et je n\'ai pas non plus le temps de me rendre à Paris. Cependant, je n\'ai reçu aucune réponse.',
+            request: 'Annuler l\'allumination, débloquer l\'intra, permettre le chargement du stage, besoin d\'arriver à Paris reporté de 6 mois\nmsnazarow@gmail.com'
+        }
+    },
+
+
+    {
+        ru: {
+            nickname: 'bpoetess',
+            date: '22.10.2024',
+            title: 'Алюмнизация',
+            briefProblem: 'Невозможность получить визу',
+            detailedProblem: '22.10.2024 я писал письмо, что у меня нет возможности прибыть в Париж, так как нет средств для получения визы (650 евро/месяц) \n\nТема: Запрос отчета об окончании учебы.\nУважаемая администрация школы 42!\n Беру на себя смелость написать Вам с просьбой предоставить отчет об окончании моей учебы. Меня зовут Гришин Михаил (прозвище поэтесса), ученик 42 школы, и в настоящее время я испытываю значительные финансовые трудности.\nК сожалению, я не могу поехать в Париж из-за отсутствия средств на проживание там. Я полностью осознаю важность завершения обучения и полон решимости возобновить его, как только мое финансовое положение позволит мне это сделать.\nЯ был бы очень признателен, если бы вы рассмотрели мою просьбу об отчете и дали мне возможность завершить свое путешествие в лучших условиях. Я остаюсь в вашем распоряжении для предоставления любых необходимых документов или дополнительной информации.\nЗаранее благодарю вас за понимание и поддержку.\n\nИскренне, \nГришин Михаил, bpoetess.',
+            request: 'Отменить алюмнизацию и продлить дедлайн на 1 год. mikhailgrishind@yandex.ru'
+        },
+        fr: {
+            nickname: 'bpoetess',
+            date: '22.10.2024',
+            title: 'Alumini',
+            briefProblem: 'Impossibilité d\'obtenir un visa',
+            detailedProblem: 'Le 22/10/2024 j\'ai écrit une lettre disant que je n\'ai pas la possibilité de venir à Paris, car je n\'ai pas les moyens d\'obtenir un visa (650 euros/mois)\n\nObjet : Demande de report de la fin de mes études\nCher administration de l’École 42,\nJe me permets de vous écrire afin de solliciter un report de la fin de mes études (alumnization). Je m’appelle Grishin Mikhail (surnom bpoetess), étudiant à l’École 42, et je fais face actuellement à des difficultés financières importantes.\nMalheureusement, je ne suis pas en mesure de me rendre à Paris en raison de l’insuffisance de moyens pour couvrir les frais de vie sur place. Je suis pleinement conscient de l’importance d’achever ma formation et déterminé à la reprendre dès que ma situation financière me le permettra.\nJe vous serais très reconnaissant de bien vouloir examiner ma demande de report et de m’accorder l’opportunité de finaliser mon parcours dans de meilleures conditions. Je reste à votre disposition pour fournir tout document ou complément d’information nécessaire.\nJe vous remercie par avance pour votre compréhension et votre soutien.\n\nCordialement,\nGrishin Mikhail, bpoetess',
+            request: 'Annuler l\'alumination et prolonger le délai de 1 an. mikhailgrishind@yandex.ru'
+        }
+    }
 
 ];
