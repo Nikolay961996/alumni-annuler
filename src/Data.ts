@@ -17,7 +17,7 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'ALumni',
             briefProblem: 'Je ne savais pas qu\'il était possible de demander une prolongation du délai.',
             detailedProblem: 'Je ne devais pas venir en raison de problèmes de santé, mais je veux terminer mes études en France et obtenir un certificat. J\'ai une preuve de la clinique.',
-            request: 'Annuler l\'alumni et prolonger le délai d\'un an'
+            request: 'Annuler l\'alumni et prolonger le délai d\'un an\namarettocandy@yandex.ru'
         },
         ru: {
             nickname: 'bmarlin',
@@ -25,7 +25,7 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'алюмнизация',
             briefProblem: 'не знал что можно попросить продление',
             detailedProblem: 'из-за проблем со здоровьем не собирался приезжать. но очень хочу закончить обучение во франции и получить сертификат. есть доказательства из клиники.',
-            request: 'отменить алюмнизацию и продлить дедлайн на год'
+            request: 'отменить алюмнизацию и продлить дедлайн на год\namarettocandy@yandex.ru'
         }
     },
 
