@@ -257,7 +257,7 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'Алюмнизация',
             briefProblem: 'Не продлили дедлайн по запросу направленному заранее.',
             detailedProblem: 'Очень много писем было направлено на адрес adm и pedago с конца ноября с просьбой продления срока дедлайна, которые были проигнорированы. Запрос о продлении срока дедлайна был направлен в связи с тем, что паспорт истек. И требуется время не только для получения визы но и для получения нового паспорта. Также по какой-то причине не был завершен мой трансфер в школу, из-за чего я не смогла загрузить договор о стажировке, хотя другие студенты дистанционно загрузить договор смогли.',
-            request: 'Отменить алюмнизацию. Отсрочить дедлайн на 1,5 месяца. Завершить трансфер, принять договор о стажировке. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n-https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing'
+            request: 'Отменить алюмнизацию. Отсрочить дедлайн на 1,5 месяца. Завершить трансфер, принять договор о стажировке. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n- https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing \n - https://drive.google.com/file/d/1_xyIIJO6dOph_kZuMYkaY0glVQPjr3nr/view?usp=sharing'
         },
         fr: {
             nickname: 'myuonne',
@@ -265,7 +265,7 @@ export const students: Record<Language, StudentAny>[] = [
             title: 'Alumni',
             briefProblem: 'Ils n\'ont pas prolongé le délai, malgré le fait que la demande ait été envoyée plus d\'un mois à l\'avance.',
             detailedProblem: 'De nombreuses lettres ont été envoyées à l\'adm et au pedago depuis fin novembre pour demander une prolongation du délai, qui ont été ignorées. La demande de prolongation du délai a été envoyée en raison du fait que le passeport était expiré. Et il faut du temps non seulement pour obtenir un visa mais aussi pour obtenir un nouveau passeport. De plus, pour une raison quelconque, mon transfert à l\'école n\'a pas été effectué, c\'est pourquoi je n\'ai pas pu envoyer la convention de stage, alors que d\'autres étudiants ont pu l\'envoyer à distance.',
-            request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n-https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing'
+            request: 'Annuler l\'aluminisation. Reporter le délai d\'un mois et demi. Effectuer le transfert, accepter la convention de stage. 9689267359t@gmail.com\n- https://drive.google.com/file/d/1H5gi-ONgDX-Vj1xQ9zn1shy2T2doWGaP/view?usp=sharing \n- https://drive.google.com/file/d/1ookNo4ho4yPyjDGhLKLewpAF9tBosFjp/view?usp=sharing \n- https://drive.google.com/file/d/1QMYBUdOKudZ-drby2s1TMoWbY8mXwAdn/view?usp=sharing \n - https://drive.google.com/file/d/1_xyIIJO6dOph_kZuMYkaY0glVQPjr3nr/view?usp=sharing'
         }
     },
 
