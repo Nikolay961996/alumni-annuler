@@ -28,7 +28,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'отменить алюмнизацию и продлить дедлайн на год\namarettocandy@yandex.ru'
         }
     },
-
+/*
     {
         fr: {
             nickname: 'aphilome',
@@ -47,7 +47,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Отменить алюмнизацию'
         }
     },
-
+*/
     {
         ru: {
             nickname: 'bkathey',
@@ -148,7 +148,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Prévoyez du temps pour arriver sur le campus jusqu\'au 01.04.2025'
         }
     },
-
+/*
     {
         fr: {
             nickname: 'tbirdper',
@@ -167,7 +167,7 @@ export const students: Record<Language, StudentAny>[] = [
             request: 'Запрос: Предоставьте время, чтобы прибыть в кампус до апреля 2025 года soldatovandrey4@gmail.com'
         }
     },
-    
+    */
     {
         ru: {
             nickname: 'mlizzie',
